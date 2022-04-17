@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+#site_wrapper {
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(0,272px)) 1fr;
+    grid-gap:0px;
+    grid-template-rows: 200px 852px 700px 250px;
+
+    grid-template-areas: 
+     "header header header header header header"
+     "Image1 Image1 Image1 Image1 Image1 Image1"
+     ". Content1 Content1 Content2 Content2 ."
+     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3"
+     ;
+
+}
+
+
+.Main_header{
+    background-color:#E2DDDD;
+    grid-area:header;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.Main_header .logo{
+    width:300px;
+    height:150px;
+    margin-left: 50px;
+   
+}
+.Main_header .nav{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-size:30px;
+    font-weight: bold;
+}
+.Main_header .nav a{
+    text-decoration: none;
+    color:#615c62;
+    text-align: bottom;
+    padding: 15px 30px;
+    margin: 0 8px; 
+    text-transform: uppercase;
+
+}
+.Main_header .nav a:hover, .Main_header .nav .active{
+    background-color: #E2DDDD;
+    color:white;
+}
+
+.Main_Image{
+    background-image: url('Images/Photo1.jpg');
+    grid-area:Image1;
+    background-size: cover;
+}
+
+
+
+
+.Content_section1{
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content1;
+    margin-top: 2em;
+}
+
+
+
+
+
+.Content_section2{
+    margin-left:10px;
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content2;
+    margin-top: 2em;
+}
+
+
+
+.Main_Footer1{
+    grid-area:Footer1;
+    margin-top: 2em;
+    background-color: #B86b77
+}
+
+.Main_Footer1 .logo_footer{
+    width:300px;
+    height:150px;
+    margin-left: 50px;
+    padding:10px;
+   
+}
+
+.Main_Footer2{
+    grid-area:Footer2;
+    margin-top: 2em;
+    background-color: #B86b77
+}
+
+
+
+
+.Main_Footer3{
+    margin-top: 2em;
+    background-color: #B86b77;
+    grid-area:Footer3;
+}
+
+.Main_Footer3 a{
+   font-size: 40px;
+   margin:0 50px;
+   float: right;
+   
+}
+
+.fa {
+    text-decoration: none;
+   
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+
+
+.fa-facebook {
+    color: white;
+
+  }
+
+  .fa-twitter {
+    color: white;
+
+  }
+
+  .fa-instagram {
+    color: white;
+  }
