@@ -79,7 +79,7 @@ body{
 .Content_section1{
     background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content1;
-     margin-top: 2em;
+    margin-top: 2em;
 }
 .btn{
 
@@ -110,7 +110,7 @@ body{
     margin-left:10px;
     background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content2;
-     margin-top: 2em;
+    margin-top: 2em;
 }
 
 
