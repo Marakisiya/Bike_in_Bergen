@@ -96,7 +96,7 @@ body{
 
 
 .Map_Image{
-    padding: 1em 2em 2em;
+    padding: 1em;
     grid-area:Map;
     background-color: rgba(184, 107, 119, 0.05);
    
