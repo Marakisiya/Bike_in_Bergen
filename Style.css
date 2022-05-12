@@ -19,7 +19,7 @@ body{
      ". Content2 Content2 Content2 Content21 Content21 Content21 ."
      ". Content3 Content3 Content3 Content31 Content31 Content31 ."
       ". Content4 Content4 Content4 Content41 Content41 Content41 ."
-     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer4 Footer4"
+     "Footer1 Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer3"
      ;
 
 }
@@ -223,27 +223,23 @@ body{
    
 }
 
+
+
 .Main_Footer2{
     grid-area:Footer2;
     margin-top: 2em;
    background-color:#E2DDDD;
 }
 
+
+
 .Main_Footer3{
-    grid-area:Footer3;
-    margin-top: 2em;
-   background-color:#E2DDDD;
-}
-
-
-
-.Main_Footer4{
     margin-top: 2em;
     background-color:#E2DDDD;
-    grid-area:Footer4;
+    grid-area:Footer3;
 }
 
-.Main_Footer4 a{
+.Main_Footer3 a{
    font-size: 40px;
    float: right;
    
