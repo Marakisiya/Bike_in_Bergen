@@ -67,7 +67,7 @@ body{
 
 
 .Map_TxT{
-   padding: 2em 4em 0 2em;
+   padding: 2em 4em 0 0;
     grid-area:MapTxT;
     background-color: rgba(184, 107, 119, 0.05);
     
