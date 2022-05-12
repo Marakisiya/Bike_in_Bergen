@@ -76,7 +76,7 @@ body{
 
     text-decoration: none;
     border:2px solid #B86b77;
-    border-radius:0em;
+    border-radius:0;
     padding:15px 30px;
     margin:0 8px;
     text-transform: uppercase;
