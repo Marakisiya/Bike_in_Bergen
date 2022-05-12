@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr repeat(6, minmax(0,250px)) 1fr;
     grid-gap:0px;
-    grid-template-rows: 200px 852px 600px 600px 600px 600px 600px 600px 200px;
+    grid-template-rows: 200px 852px 600px 600px 600px 600px 600px 600px 250px;
 
     grid-template-areas: 
      "header header header header header header header header"
