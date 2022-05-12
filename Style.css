@@ -67,7 +67,7 @@ body{
 
 
 .Map_TxT{
-   padding: 2em 2em 0 2em;
+   padding: 2em 4em 0 2em;
     grid-area:MapTxT;
     background-color: rgba(184, 107, 119, 0.05);
     
@@ -108,7 +108,7 @@ body{
     background-color: rgba(184, 107, 119, 0.05);
     grid-area:Content2;
     margin-top: 2em;
-    padding: 2em 2em 0 2em;
+    padding: 2em 4em 0 2em;
 }
 
 .btn2{
@@ -147,7 +147,7 @@ body{
     background-color: rgba(184, 107, 119, 0.05);
     grid-area:Content3;
     margin-top: 2em;
-    padding: 2em 2em 0 2em;
+    padding: 2em 4em 0 2em;
 }
 
 .btn3{
@@ -183,7 +183,7 @@ body{
     background-color: rgba(184, 107, 119, 0.05);
     grid-area:Content4;
     margin-top: 2em;
-    padding: 2em 2em 0 2em;
+    padding: 2em 4em 0 2em;
 }
 
 .btn4{
