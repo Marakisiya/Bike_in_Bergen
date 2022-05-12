@@ -8,18 +8,20 @@ body{
 #site_wrapper {
     height:100vh;
     display: grid;
-    grid-template-columns: 1fr repeat(4, minmax(0,272px)) 1fr;
+    grid-template-columns: 1fr repeat(6, minmax(0,250px)) 1fr;
     grid-gap:0px;
-    grid-template-rows: 200px 852px 1018px 700px 500px 730px 250px;
+    grid-template-rows: 200px 852px 600px 600px 600px 600px 600px 600px 200px;
 
     grid-template-areas: 
-     "header header header header header header"
-     "Image1 Image1 Image1 Image1 Image1 Image1"
-     ". Map Map Map Map ."
-     ". Content1 Content1 Content2 Content2 ."
-     "Image2 Image2 Image2 Image2 Image2 Image2"
-     ". Content3 Content3 Content4 Content4 ."
-     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3"
+     "header header header header header header header header"
+     "Image1 Image1 Image1 Image1 Image1 Image1 Image1 Image1"
+     ". MapTxT MapTxT MapTxT Map Map Map ."
+     ". Content1 Content1 Content1 Content12 Content12 Content12 ."
+     ". Content2 Content2 Content2 Content21 Content21 Content21 ."
+     "Image2 Image2 Image2 Image2 Image2 Image2 Image2 Image2"
+     ". Content3 Content3 Content3 Content31 Content31 Content31 ."
+      ". Content4 Content4 Content4 Content41 Content41 Content41 ."
+     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer4 Footer4"
      ;
 
 }
@@ -66,10 +68,17 @@ body{
 }
 
 
+.Map_TxT{
+    padding: 2em 2em;
+    grid-area:MapTxT;
+    
+}
+
+
 .Map_Image{
     padding: 2em 2em;
     grid-area:Map;
-    
+   
 }
 
 
@@ -98,6 +107,13 @@ body{
     color:#B86b77;
     background-color:rgba(184, 107, 119, 0.025);
 }
+
+
+.Content_section12{
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content12;
+}
+
 
 
 
@@ -129,6 +145,13 @@ body{
     color:#B86b77;
     background-color:rgba(184, 107, 119, 0.025);
 }
+
+
+.Content_section21{
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content21;
+}
+
 
 
 .Secondary_Image{
@@ -168,6 +191,10 @@ body{
     background-color:rgba(184, 107, 119, 0.025);
 }
 
+.Content_section31{
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content31;
+}
 
 
 .Content_section4{
@@ -199,6 +226,10 @@ body{
     background-color:rgba(184, 107, 119, 0.025);
 }
 
+.Content_section41{
+    background-color: rgba(184, 107, 119, 0.2);
+    grid-area:Content41;
+}
 
 .Main_Footer1{
     grid-area:Footer1;
@@ -220,16 +251,21 @@ body{
    background-color:#E2DDDD;
 }
 
-
-
-
 .Main_Footer3{
-    margin-top: 2em;
-    background-color:#E2DDDD;
     grid-area:Footer3;
+    margin-top: 2em;
+   background-color:#E2DDDD;
 }
 
-.Main_Footer3 a{
+
+
+.Main_Footer4{
+    margin-top: 2em;
+    background-color:#E2DDDD;
+    grid-area:Footer4;
+}
+
+.Main_Footer4 a{
    font-size: 40px;
    float: right;
    
