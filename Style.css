@@ -71,6 +71,27 @@ body{
     grid-area:MapTxT;
     
 }
+.btn1{
+
+    text-decoration: none;
+    border:2px solid #B86b77;
+    border-radius:50em;
+    padding:15px 30px;
+    margin:0 8px;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:white;
+    background-color:#b86b77;
+    margin-left: 27.5%;
+    width:70%;
+    text-align: center;
+
+}
+.btn1:hover{
+    border:2px solid #B86b77;
+    color:#B86b77;
+    background-color:rgba(184, 107, 119, 0.025);
+}
 
 
 .Map_Image{
