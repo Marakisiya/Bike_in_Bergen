@@ -16,9 +16,7 @@ body{
      "header header header header header header header header"
      "Image1 Image1 Image1 Image1 Image1 Image1 Image1 Image1"
      ". MapTxT MapTxT MapTxT Map Map Map ."
-     ". Content1 Content1 Content1 Content12 Content12 Content12 ."
      ". Content2 Content2 Content2 Content21 Content21 Content21 ."
-     "Image2 Image2 Image2 Image2 Image2 Image2 Image2 Image2"
      ". Content3 Content3 Content3 Content31 Content31 Content31 ."
       ". Content4 Content4 Content4 Content41 Content41 Content41 ."
      "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer4 Footer4"
@@ -82,45 +80,11 @@ body{
 }
 
 
-.Content_section1{
-    background-color: rgba(184, 107, 119, 0.2);
-    grid-area:Content1;
-}
-.btn{
-
-    text-decoration: none;
-    border:2px solid #B86b77;
-    border-radius:50em;
-    padding:15px 30px;
-    margin:0 8px;
-    text-transform: uppercase;
-    font-weight:bold;
-    color:white;
-    background-color:#b86b77;
-    margin-left: 27.5%;
-    width:70%;
-    text-align: center;
-
-}
-.btn:hover{
-    border:2px solid #B86b77;
-    color:#B86b77;
-    background-color:rgba(184, 107, 119, 0.025);
-}
-
-
-.Content_section12{
-    background-color: rgba(184, 107, 119, 0.2);
-    grid-area:Content12;
-}
-
-
-
-
 
 .Content_section2{
     background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content2;
+    margin-top: 2em;
 }
 
 .btn2{
@@ -149,16 +113,9 @@ body{
 .Content_section21{
     background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content21;
-}
-
-
-
-.Secondary_Image{
-    background-image: url('Images/Secondary_Image.jpg');
-    grid-area:Image2;
-    background-size: cover;
     margin-top: 2em;
 }
+
 
 
 
