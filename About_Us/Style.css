@@ -100,29 +100,31 @@ body{
 .Main_Footer1{
     grid-area:Footer1;
     margin-top: 2em;
-    background-color: #B86b77
+    background-color:#E2DDDD;
 }
 
 .Main_Footer1 .logo_footer{
     width:300px;
     height:150px;
-    margin-left: 50px;
-    padding:10px;
+    margin-left: 70px;
+    padding: 30px;
+   
    
 }
+
+
 
 .Main_Footer2{
     grid-area:Footer2;
     margin-top: 2em;
-    background-color: #B86b77
+   background-color:#E2DDDD;
 }
-
 
 
 
 .Main_Footer3{
     margin-top: 2em;
-    background-color: #B86b77;
+    background-color:#E2DDDD;
     grid-area:Footer3;
 }
 
@@ -143,15 +145,15 @@ body{
 
 
 .fa-facebook {
-    color: white;
+    color:#615c62;
 
   }
 
   .fa-twitter {
-    color: white;
+    color:#615c62;
 
   }
 
   .fa-instagram {
-    color: white;
+    color:#615c62;
   }
