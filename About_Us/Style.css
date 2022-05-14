@@ -73,7 +73,6 @@ body{
 
 .Content_section2{
     margin-left:10px;
-    background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content2;
     margin-top: 2em;
 }
@@ -90,7 +89,6 @@ body{
 
 .Content_section4{
     margin-left:10px;
-    background-color: rgba(184, 107, 119, 0.2);
     grid-area:Content4;
     margin-top: 2em;
 }
