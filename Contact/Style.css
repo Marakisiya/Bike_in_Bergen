@@ -8,15 +8,15 @@ body{
 #site_wrapper {
     height:100vh;
     display: grid;
-    grid-template-columns: 1fr repeat(4, minmax(0,272px)) 1fr;
+    grid-template-columns: 10px repeat(4, minmax(0,272px)) 10px;
     grid-gap:0px;
     grid-template-rows: 200px 852px 500px 250px;
 
     grid-template-areas: 
-     "header header header header header header"
-     "Image1 Image1 Image1 Image1 Image1 Image1"
-     ". Content1 Content1 Content2 Content2 ."
-     "Footer1 Footer1 Footer2 Footer2 Footer3 Footer3"
+     "header header header header header header header header"
+     "Image1 Image1 Image1 Image1 Image1 Image1 Image1 Image1"
+     ". . Content1 Content1 Content2 Content2 . ."
+     "Footer1 Footer1 Footer1 Footer2 Footer2 Footer3 Footer3 Footer3"
      ;
 
 }
