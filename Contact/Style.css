@@ -8,7 +8,7 @@ body{
 #site_wrapper {
     height:100vh;
     display: grid;
-    grid-template-columns: 10px repeat(4, minmax(0,272px)) 10px;
+    grid-template-columns: 10px repeat(6, minmax(0,272px)) 10px;
     grid-gap:0px;
     grid-template-rows: 200px 852px 500px 250px;
 
